@@ -8,9 +8,7 @@ while guessFlag==False:
       if guess==number:
             print("God job")
             guessFlag=True
-      elif guess > number :
+      elif guess > number:
             print ("Too high")
       elif guess < number:
             print ("Too low")
-            
-        
