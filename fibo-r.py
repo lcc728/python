@@ -9,5 +9,4 @@ def fib(n):
     for i in range(2, n):
         fibs.append(fibs[-1] + fibs[-2])
     return fibs
- 
 print (fib(10))
