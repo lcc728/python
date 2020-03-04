@@ -13,9 +13,9 @@ while True:
     doorList.pop(door-1)
     if (firstChoice != door):
         newList=[firstChoice,door]
-    else:    
+    else:
         second=random.randint(1,2)
-        newList=[doorList[second-1], door]  
+        newList=[doorList[second-1], door]
     newList.sort()
     secondChoice=int(input("Choice another door from {:d},{:d}:".format(newList[0],newList[1])))
     if (secondChoice==door):
