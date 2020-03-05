@@ -5,7 +5,7 @@ import random
 guessCount=0
 rightCount = 0
 while True:
-    door=random.randint(1,3)
+    door=random.randrange(3)+1
     firstChoice=int(input("Choice a door from 1-3 , to exit the program, press 4 :"))
     if (firstChoice==4): break
     guessCount =guessCount +1
@@ -14,7 +14,7 @@ while True:
     if (firstChoice != door):
         newList=[firstChoice,door]
     else:
-        second=random.randint(1,2)
+        second=random.randint(1)+1
         newList=[doorList[second-1], door]
     newList.sort()
     secondChoice=int(input("Choice another door from {:d},{:d}:".format(newList[0],newList[1])))
