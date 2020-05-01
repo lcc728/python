@@ -29,13 +29,11 @@ magicMap={
 
 while True:
    question=input("Enter your question:")
-   magicNum = random.randint(1,20)
+   magicNum=random.randint(1,20)
    print("Your question  =>" + question)
    print("My answer =>" + magicMap[magicNum])
    if (magicNum > 16 or magicNum < 11):
          break
-      
-
 
 
 
