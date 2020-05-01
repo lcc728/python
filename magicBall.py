@@ -1,5 +1,6 @@
 # Magic Ball
-#https://www.george.tw/
+#https://www.george.tw/2020/05/01/python-dict-magic-8-ball/
+
 import random
 
 # https://zh.wikipedia.org/wiki/神奇八號球
